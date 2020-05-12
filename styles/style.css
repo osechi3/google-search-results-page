@@ -11,6 +11,7 @@ ul {
 }
 
 #nav-bar {
+    z-index: 1;
     background-color: red;
     padding: 0;
     margin: 0;
@@ -80,4 +81,33 @@ ul {
 }
 #google-apps-button img {
     height: 25px; 
+}
+#sub-bar {
+
+    position: absolute;
+    left: 0;
+    top: 35px;
+    height: 55px;
+    width: 100%;
+    border-bottom: 2px solid #ebebeb;
+}
+#sub-bar li {
+    float: left;
+    margin-top: 23px;
+}
+#sub-bar a {
+    font-size: 13px;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: #5f6368;
+}
+#selected-element a {
+    border-bottom: 3px solid #1A73E8;
+    color: #1A73E8;
+}
+#main-section {
+    outline: 1px solid;
+    position: absolute;
+    left: 0;
+    top: 200px;
 }
