@@ -47,6 +47,9 @@ ul {
     min-width: 87%;
     border: none;
 }
+#search-bar:hover {
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
+}
 #x-img {
     height: 20px;
     vertical-align: middle;
@@ -69,8 +72,11 @@ ul {
     font-size: 15px;
     color: white;
     text-decoration: none;
-    border: 1px solid #1a73e8;
+    border: 1px transparent #1a73e8;
     border-radius: 4px;
+}
+#sign-in-button a:hover {
+    background-color: #3580e3;
 }
 #google-apps-button img {
     height: 25px; 
