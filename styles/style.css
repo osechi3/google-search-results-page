@@ -1,0 +1,77 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: arial, sans-serif;
+}
+ul {
+    list-style-type: none;
+}
+
+#nav-bar {
+    background-color: red;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    height: 52px;
+}
+#nav-bar li {
+    float: left;
+    margin-top: 10px;
+    
+}
+#google-logo-top {
+    outline: 1px solid;
+    margin: 15px 25px;
+}
+#google-logo-top img {
+    height: 28px;
+    width: 86px;
+}
+#search-bar {
+    height: 33px;
+    width: 690px;
+    margin: 0 20px;
+    border: 1px solid;
+    border-radius: 17px;
+    vertical-align: middle;
+    
+}
+#search-bar input {
+    height: 32px;
+    margin-left: 20px;
+    font-size: 15px;
+    min-width: 87%;
+    border: none;
+}
+#x-img {
+    height: 20px;
+    vertical-align: middle;
+}
+#glass-img {
+    height: 17px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+#google-apps-button {
+    padding-top: 6px;
+}
+#sign-in-button {
+    padding-top: 8px;
+    margin: 20px 27px;
+}
+#sign-in-button a {
+    background-color: #1a73e8;
+    padding: 8px 23px;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid #1a73e8;
+    border-radius: 4px;
+}
+#google-apps-button img {
+    height: 25px; 
+}
