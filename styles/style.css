@@ -154,7 +154,7 @@ main a {
     text-decoration: underline;
 }
 .page-blocks {
-    margin: 50px 12px;
+    margin: 30px 12px;
 }
 .page-blocks p {
     color: #4d5156;
@@ -168,7 +168,7 @@ main a {
 #people-ask li {
     border-bottom: .5px solid #dfe1e5;
 } 
-#ul-head {
+.ul-head {
     font-size: 20px;
     font-weight: normal;
     margin: 0;
@@ -180,4 +180,38 @@ main a {
     text-decoration: none;
     color: black;
     font-size: 16px;
+}
+#video-container {
+    padding: 0;
+    margin-top: 3px;
+    margin-left: 15px;
+    width: 700px;
+    height: 295px;
+}
+.video {
+    float: left;
+    width: 212px;
+    height: 290px;
+    margin: 0 7px;
+    border: 1px solid #dfe1e5;
+    border-radius: 10px;
+}
+.video img {
+    border: 1px;
+    border-radius: 10px;
+}
+.video a {
+    font-size: 16px;
+    color: #1a0dab;
+}
+.video a:hover {
+    text-decoration: underline;
+}
+.video-title {
+    padding: 0 15px;
+}
+.video-text {
+    margin-top: 50px;
+    margin-left: 5px;
+    line-height: 20px;
 }
