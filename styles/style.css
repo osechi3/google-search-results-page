@@ -150,6 +150,9 @@ main a {
     font-size: 12px;
     padding: 0 12px;
 }
+.tiny-links a:hover {
+    text-decoration: underline;
+}
 .page-blocks {
     margin: 50px 12px;
 }
