@@ -105,9 +105,76 @@ ul {
     border-bottom: 3px solid #1A73E8;
     color: #1A73E8;
 }
+main {
+    font-size: 14px;
+}
+main a {
+    text-decoration: none;
+}
 #main-section {
     outline: 1px solid;
     position: absolute;
-    left: 0;
-    top: 200px;
+    left: 180px;
+    top: 110px;
+    width: 640px;
+}
+#first-block {
+    margin-left: 5px;
+    padding: 2px 17px 7px 17px;
+    border: 1px solid #dfe1e5;
+    border-radius: 10px;
+}
+.green-link {
+    line-height: 9px;
+}
+.green-link a {
+    color: #202124;
+}
+.main-link {
+    font-size: 20px;
+    line-height: .1px;
+}
+.main-link a {
+    color: #1a0dab;
+}
+.main-link a:hover {
+    text-decoration: underline;
+}
+.tiny-links {
+    position: absolute;
+    margin-top: 5px;
+    right: 0;
+}
+.tiny-links a {
+    color: #70757a;
+    font-size: 12px;
+    padding: 0 12px;
+}
+.page-blocks {
+    margin: 50px 12px;
+}
+.page-blocks p {
+    color: #4d5156;
+}
+#people-ask {
+    padding: 0;
+    margin: -15px 10px 0 10px;
+    border: 1px solid #dfe1e5;
+    border-radius: 10px;
+}
+#people-ask li {
+    border-bottom: .5px solid #dfe1e5;
+} 
+#ul-head {
+    font-size: 20px;
+    font-weight: normal;
+    margin: 0;
+    padding: 10px;
+}
+#people-ask a {
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
 }
