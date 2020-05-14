@@ -5,6 +5,7 @@ body {
     width: 100%;
     height: 100%;
     font-family: arial, sans-serif;
+    overflow-x: hidden;
 }
 main {
     font-size: 14px;
@@ -22,12 +23,13 @@ ul {
 
 #nav-bar {
     z-index: 1;
-    background-color: red;
+    background-color: white;
     padding: 0;
     margin: 0;
     position: fixed;
     width: 100%;
     height: 52px;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
 }
 #nav-bar li {
     float: left;
@@ -35,7 +37,6 @@ ul {
     
 }
 #google-logo-top {
-    outline: 1px solid;
     margin: 15px 25px;
 }
 #google-logo-top img {
@@ -46,7 +47,7 @@ ul {
     height: 33px;
     width: 690px;
     margin: 0 20px;
-    border: 1px solid;
+    border: 1px solid #ebebeb;
     border-radius: 17px;
     vertical-align: middle;
     
@@ -93,7 +94,6 @@ ul {
     height: 25px; 
 }
 #sub-bar {
-
     position: absolute;
     left: 0;
     top: 35px;
@@ -116,7 +116,6 @@ ul {
     color: #1A73E8;
 }
 #main-section {
-    outline: 1px solid;
     position: absolute;
     left: 180px;
     top: 110px;
@@ -212,4 +211,51 @@ ul {
     margin-left: 5px;
     line-height: 20px;
 }
-/* color i hover s links. u nas est' v main pravila */
+#search-bar-bottom {
+    height: 180px;
+}
+#bottom-search1 {
+    width: 240px;
+    padding: 0 15px;
+    position: absolute;
+    left: 0;
+}
+#bottom-search1 a {
+    line-height: 25px;
+}
+#bottom-search2 {
+    padding: 0 15px;
+    width: 240px;
+    position: absolute;
+    right: 100px;
+}
+#bottom-search2 a {
+    line-height: 25px;
+}
+#next-pages {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 500px;
+    height: 70px;
+}
+#google-logo-bottom {
+    position: absolute;
+    right: 175px;
+}
+#links1-10 {
+    margin-right: 81px;
+}
+#links1-10 a {
+    display: block;
+    float: right;
+    padding: 10px 5.5px 0 6px;
+    margin-top: 40px;
+}
+#arrow-next {
+    display: block;
+    position: absolute;
+    right: 140px;
+    bottom: 20px;
+    line-height: 50px;
+    width: 30px;
+}
