@@ -6,4 +6,6 @@ Learning Goals:
 3. Getting general experience of using pure HTML and CSS for building websites.
 
 THE WEB PAGE IS UNFINISHED<br>
-It's due to some problems that I should have recognized in the beginning of the process. I ruined the structure of the document so I can't use the footer element to create a bottom navigation bar (At least I think so at the moment). 
+It's due to some problems that I should have recognized in the beginning of the process. I ruined the structure of the document so I can't use the footer element to create a bottom navigation bar (At least I think so at the moment).
+
+You can check it out here: https://osechi3.github.io/google-search-results-page/
